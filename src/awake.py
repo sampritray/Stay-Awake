@@ -2,7 +2,7 @@ import pyautogui
 import time
 import sys
 from datetime import datetime
-pyautogui.FAILSAFE = False
+#pyautogui.FAILSAFE = False
 numMin = None
 if ((len(sys.argv)<2) or sys.argv[1].isalpha() or int(sys.argv[1])<1):
     numMin = 3
